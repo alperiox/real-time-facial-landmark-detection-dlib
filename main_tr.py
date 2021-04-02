@@ -6,9 +6,9 @@ import os
 
 import glob
 
-# landmarkı tespit edip döndüren modeli ilk önce indirmek gerekiyor, indirme linki: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+# ilk önce landmarkı tespit edip döndüren modeli  indirmek gerekiyor, indirme linki: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 # model bz2 türünde sıkıştırılmış olarak geliyor, bu yüzden
-# indirdikten sonra bu scripting çalıştığı klasör içerisine veya herhangi bir yere dosyayı çıkartın ve dosya yolunu "predictor_path" e girin
+# indirdikten sonra bu scriptin çalıştığı klasör içerisine veya herhangi bir yere dosyayı çıkartın ve dosya yolunu "predictor_path" e girin
 
 # landmarked_img değişkeninin ne olduğunu aşağılarda görebilirsiniz
 # landmarked_img bana frame işlendikten sonra lazım olduğu için
