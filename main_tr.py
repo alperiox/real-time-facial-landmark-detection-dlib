@@ -12,9 +12,8 @@ import glob
 
 # landmarked_img değişkeninin ne olduğunu aşağılarda görebilirsiniz
 # landmarked_img bana frame işlendikten sonra lazım olduğu için
-# global landmarked_img
 
-predictor_path = "enter the model path here"
+predictor_path = "indirilen modelin yolunu buraya girin"
 
 # DLIB default HoG face detector modelini kullanacağız, cpuda güzel çalışıyor diye duymuştum
 detector = dlib.get_frontal_face_detector()
