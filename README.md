@@ -13,4 +13,4 @@ Installing required packages from `requirements.txt` file by running `pip instal
 In order to run the script, you should also download pretrained landmark detector from:
 > http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 
-After that, you can import the pretrained model by specifying the downloaded model path in `predictor_path` variable
+After that, you can import the pretrained model by specifying the downloaded model path in `predictor_path` variable. Finally, run `main.py` to use the script.
