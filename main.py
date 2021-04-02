@@ -14,7 +14,7 @@ import glob
 # landmarked_img bana frame işlendikten sonra lazım olduğu için
 # global landmarked_img
 
-predictor_path = "E:\\programming\\python\\computer vision projects\\real-time face landmark detection\\shape_predictor_68_face_landmarks.dat"
+predictor_path = "enter the model path here"
 
 # DLIB default HoG face detector modelini kullanacağız, cpuda güzel çalışıyor diye duymuştum
 detector = dlib.get_frontal_face_detector()
