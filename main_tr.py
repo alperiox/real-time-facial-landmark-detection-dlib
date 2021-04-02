@@ -10,9 +10,6 @@ import glob
 # model bz2 türünde sıkıştırılmış olarak geliyor, bu yüzden
 # indirdikten sonra bu scriptin çalıştığı klasör içerisine veya herhangi bir yere dosyayı çıkartın ve dosya yolunu "predictor_path" e girin
 
-# landmarked_img değişkeninin ne olduğunu aşağılarda görebilirsiniz
-# landmarked_img bana frame işlendikten sonra lazım olduğu için
-
 predictor_path = "indirilen modelin yolunu buraya girin"
 
 # DLIB default HoG face detector modelini kullanacağız, cpuda güzel çalışıyor diye duymuştum
@@ -28,7 +25,7 @@ while True:
     ret, frame = video_capture.read()
 
     # Detectoru kullanarak framedeki yüzlerin bb (bounding box)lerini belirleyelim
-    # 1 upsampling için kullanılıyor, sayının büyütülmesi framede daha çok yüzün tanımlanmasını sağlayacaktır
+    # 1 upsampling için kullanılıyor, sayının büyütülmesi modelde işlenen girdiyi büyüttüğünden framede daha çok yüzün tanımlanmasını sağlayacaktır
     dets = detector(frame, 1)
 
     # print("Bulunan yüz sayısı: {}".format(len(dets)))
