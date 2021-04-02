@@ -1,12 +1,6 @@
 import cv2
 import dlib
 
-import sys
-import os 
-
-import glob
-
-
 predictor_path = "-pretrained landmark detector path-"
 
 # Initialize the default frontal face detector
